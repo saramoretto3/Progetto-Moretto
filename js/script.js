@@ -67,6 +67,17 @@ $(window).on('load', function () {
 		nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-angle-right\'></i></button>'
 	});
 
+	//post slider (timeline)
+	$('.post-slider-timeline').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: false,
+		dots: false,
+		arrows: true,
+		prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-angle-left\'></i></button>',
+		nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-angle-right\'></i></button>'
+	});
+
 	// copy to clipboard
 	$('.copy').click(function () {
 		$(this).siblings('.inputlink').select();
