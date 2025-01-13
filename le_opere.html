@@ -13,7 +13,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This is meta description">
+  <meta name="description" content="Kantoku Nation è un archivio digitale che ha lo scopo di raccogliere, catalogare e presentare in modo chiaro e accessibile le opere del regista Hayao Miyazaki.">
   <meta name="author" content="Themefisher, Sara Moretto">
   <meta name="generator" content="Hugo 0.74.3" />
 
@@ -29,12 +29,6 @@
   <!--Favicon-->
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
   <link rel="icon" href="images/favicon.png" type="image/x-icon">
-
-  <meta property="og:title" content="Kantoku Nation | Template di pagina" />
-  <meta property="og:description" content="This is meta description" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="" />
-  <meta property="og:updated_time" content="2020-03-15T15:40:24+06:00" />
 
   <!-- Metadati Dublincore -->
   <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
@@ -54,14 +48,14 @@
   <header class="navigation fixed-top">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-white">
-        <a class="navbar-brand order-1" href="index.html" target="_blank">
+        <a class="navbar-brand order-1" href="index.html">
           <img class="img-fluid" width="100px" src="images/logo.png"
             alt="Logo Kantoku Nation">
         </a>
         <div class="collapse navbar-collapse text-center order-lg-2 order-3" id="navigation">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html" target="_blank">
+              <a class="nav-link" href="index.html">
                 Home
               </a>
             </li>
@@ -72,13 +66,13 @@
               </a>
               <div class="dropdown-menu">
                 
-                <a class="dropdown-item" href="le_opere.html#lungometraggi" target="_blank">Lungometraggi</a>
+                <a class="dropdown-item" href="le_opere.html#lungometraggi">Lungometraggi</a>
 
-                <a class="dropdown-item" href="le_opere.html#cortometraggi" target="_blank">Cortometraggi</a>
+                <a class="dropdown-item" href="le_opere.html#cortometraggi">Cortometraggi</a>
 
-                <a class="dropdown-item" href="le_opere.html#serie_televisive" target="_blank">Serie Televisive</a>
+                <a class="dropdown-item" href="le_opere.html#serie_televisive">Serie Televisive</a>
 
-                <a class="dropdown-item" href="le_opere#manga" target="_blank">Manga</a>
+                <a class="dropdown-item" href="le_opere#manga">Manga</a>
                 
               </div>
             </li>
@@ -89,24 +83,24 @@
               </a>
               <div class="dropdown-menu">
                 
-                <a class="dropdown-item" href="il_regista.html#vita" target="_blank">La Vita</a>
+                <a class="dropdown-item" href="il_regista.html#vita">La Vita</a>
 
-                <a class="dropdown-item" href="il_regista.html#collaboratori" target="_blank">Collaboratori</a>
+                <a class="dropdown-item" href="il_regista.html#collaboratori">Collaboratori</a>
 
-                <a class="dropdown-item" href="il_regista.html#filosofia" target="_blank">La filosofia</a>
+                <a class="dropdown-item" href="il_regista.html#filosofia">La filosofia</a>
                 
               </div>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="progetto.html" target="_blank">Chi Siamo</a>
+              <a class="nav-link" href="progetto.html">Chi Siamo</a>
             </li>
           </ul>
         </div>
 
         <div class="order-2 order-lg-3 d-flex align-items-center">
           <!-- search -->
-          <form class="search-bar">
+          <form class="search-bar" action="#" method="GET">
             <input id="search-query" name="s" type="search" placeholder="Digita &amp; premi invio...">
           </form>
           
@@ -126,9 +120,9 @@
         <div class="col-lg-9 mx-auto">
           <h1 class="mb-4">Le Opere</h1>
           <ul class="list-inline">
-            <li class="list-inline-item"><a class="text-default" href="index.html" target="_blank">Home
+            <li class="list-inline-item"><a class="text-default" href="index.html">Home
                 &nbsp; &nbsp; /</a></li>
-            <li class="list-inline-item"><a class="text-default" href="le_opere.html" target="_blank">Le Opere
+            <li class="list-inline-item"><a class="text-default" href="le_opere.html">Le Opere
                 &nbsp; &nbsp; /</a></li>
             <li class="list-inline-item text-primary">Lungometraggi</li>
           </ul>
@@ -191,57 +185,59 @@
 
             <!-- checkboxes -->
             <div class="widget widget-categories">
-            <h4 class="widget-title"><span>Filtra i collaboratori</span></h4>
-            <ul class="list-unstyled widget-list">
-              <label class="container">
-                <input type="checkbox">&nbsp; Isao Takahata
-                <span class="checkmark"></span>
-              </label>
-              <label class="container">
-                <input type="checkbox">&nbsp; Joe Hisaishi
-                <span class="checkmark"></span>
-              </label>
-              <label class="container">
-                <input type="checkbox">&nbsp; Katsuya Kondō
-                <span class="checkmark"></span>
-              </label>
-               <label class="container">
-                <input type="checkbox">&nbsp; Toshio Suzuki
-                <span class="checkmark"></span>
-              </label>
-               <label class="container">
-                <input type="checkbox">&nbsp; Yoshiaki Nishimura
-                <span class="checkmark"></span>
-              </label>
-              <label class="container">
-                <input type="checkbox">&nbsp; Hiromasa Yonebayashi
-                <span class="checkmark"></span>
-              </label>
-              </ul>
+            <h2 class="h4 widget-title"><span>Filtra i collaboratori</span></h2>
+            <form action="le_opere.html" method="GET">
+              <ul class="list-unstyled widget-list">
+                <label class="container">
+                  <input type="checkbox">&nbsp; Isao Takahata
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                  <input type="checkbox">&nbsp; Joe Hisaishi
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                  <input type="checkbox">&nbsp; Yoshifumi Kondō
+                  <span class="checkmark"></span>
+                </label>
+                 <label class="container">
+                  <input type="checkbox">&nbsp; Toshio Suzuki
+                  <span class="checkmark"></span>
+                </label>
+                 <label class="container">
+                  <input type="checkbox">&nbsp; Yoshiaki Nishimura
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                  <input type="checkbox">&nbsp; Hiromasa Yonebayashi
+                  <span class="checkmark"></span>
+                </label>
+                </ul>
+            </form>
             </div>
             <!-- checkboxes -->
 
             <!-- tags -->
             <div class="widget">
-              <h4 class="widget-title"><span>Filtra le tematiche</span></h4>
-              <ul class="list-inline widget-list-inline widget-card">
-                <li class="list-inline-item"><a href="#">Natura</a></li>
-                <li class="list-inline-item"><a href="#">Inquinamento</a></li>
-                <li class="list-inline-item"><a href="#">Femminismo</a></li>
-                <li class="list-inline-item"><a href="#">Guerra</a></li>
-                <li class="list-inline-item"><a href="#">Aviazione</a></li>
-                <li class="list-inline-item"><a href="#">Folklore</a></li>
-                <li class="list-inline-item"><a href="#">Amore</a></li>
-                <li class="list-inline-item"><a href="#">Esistenzialismo</a></li>
-                <li class="list-inline-item"><a href="#">Infanzia</a></li>
-              </ul>
+              <h2 class="h4 widget-title"><span>Filtra le tematiche</span></h2>
+                <ul class="list-inline widget-list-inline widget-card">
+                  <li class="list-inline-item"><a href="#">Natura</a></li>
+                  <li class="list-inline-item"><a href="#">Inquinamento</a></li>
+                  <li class="list-inline-item"><a href="#">Femminismo</a></li>
+                  <li class="list-inline-item"><a href="#">Guerra</a></li>
+                  <li class="list-inline-item"><a href="#">Aviazione</a></li>
+                  <li class="list-inline-item"><a href="#">Folklore</a></li>
+                  <li class="list-inline-item"><a href="#">Amore</a></li>
+                  <li class="list-inline-item"><a href="#">Esistenzialismo</a></li>
+                  <li class="list-inline-item"><a href="#">Infanzia</a></li>
+                </ul>
             </div>
             <!-- /tags -->
     
             <!-- Search -->
             <div class="widget">
-              <h4 class="widget-title"><span>Cerca per titolo</span></h4>
-              <form action="#!" class="widget-search">
+              <h2 class="h4 widget-title"><span>Cerca per titolo</span></h2>
+              <form action="#" method="GET" class="widget-search">
                 <input class="mb-3" id="search-query" name="s" type="search" placeholder="Digita il titolo">
                 <i class="ti-search"></i>
                 <button type="submit" class="btn btn-primary btn-block">Cerca</button>
@@ -256,20 +252,21 @@
             <ul class="nav nav-tabs"></ul>
             <div class="tab-content">
                <div id="tab-lungometraggi" class="tab-pane" title="Lungometraggi">
-
+                <form action="le_opere.html" method="GET">
                   <label for="sort-option">Ordina per:</label>
-                  <select class="m-2 border-0 bg-transparent mb-4" id="sort-option">
+                  <select name="sort-option" class="m-2 border-0 bg-transparent mb-4" id="sort-option">
                     <option value="" disabled selected>Scegli una opzione...</option>
-                    <option value="name-a-z">Ordine alfabetico, A-Z</option>
-                    <option value="name-z-a">Ordine alfabetico, Z-A</option>
-                    <option value="date-max">Ordine cronologico</option>
+                    <option value="alfa-a-z">Ordine alfabetico, A-Z</option>
+                    <option value="alfa-z-a">Ordine alfabetico, Z-A</option>
+                    <option value="data">Ordine cronologico</option>                   
                   </select>
+                </form>
 
                   <div class="row">
                     <div class="col-lg-6 col-sm-6">
                       <article class="card mb-4">
                         <div class="post-slider slider-sm">
-                          <img src="images/archivio/Mononoke_p.jpg" class="card-img-top" alt="Mononoke poster">
+                          <img src="images/archivio/Mononoke_p.jpg" class="card-img-top" alt="Mononoke poster" title="frame Principessa Mononoke">
                         </div>
                         <div class="card-body">
                           <h3 class="h4 mb-3">La Principessa Mononoke</h3>
@@ -285,7 +282,7 @@
                               </ul>
                             </li>
                           </ul>
-                          <a href="item.html" class="btn btn-outline-primary" target="_blank">Scopri</a>
+                          <a href="item.html" class="btn btn-outline-primary">Scopri</a>
                         </div>
                       </article>
                     </div>
@@ -293,7 +290,7 @@
                     <div class="col-lg-6 col-sm-6">
                       <article class="card mb-4">
                         <div class="post-slider slider-sm">
-                          <img src="images/archivio/Howl's_Moving_Castle_p.jpg" class="card-img-top" alt="Castello Errante di Howl Poster">
+                          <img src="images/archivio/Howl's_Moving_Castle_p.jpg" class="card-img-top" alt="Castello Errante di Howl Poster" title="frame Castello errante di Howl">
                         </div>
                         <div class="card-body">
                           <h3 class="h4 mb-3">Il castello errante di Howl</h3>
@@ -316,7 +313,7 @@
                     <div class="col-lg-6 col-sm-6">
                       <article class="card mb-4">
                         <div class="post-slider slider-sm">
-                          <img src="images/archivio/Ponyo_p.jpg" class="card-img-top" alt="Ponyo Poster">
+                          <img src="images/archivio/Ponyo_p.jpg" class="card-img-top" alt="Ponyo Poster" title="frame Ponyo sulla scogliera">
                         </div>
                         <div class="card-body">
                           <h3 class="h4 mb-3">Ponyo sulla scogliera</h3>
@@ -339,7 +336,7 @@
                     <div class="col-lg-6 col-sm-6">
                       <article class="card mb-4">
                         <div class="post-slider slider-sm">
-                          <img src="images/archivio/porco_rosso_p.jpg" class="card-img-top" alt="Porco Rosso Poster">
+                          <img src="images/archivio/porco_rosso_p.jpg" class="card-img-top" alt="Porco Rosso Poster" title="frame Porco Rosso">
                         </div>
                         <div class="card-body">
                           <h3 class="h4 mb-3">Porco Rosso</h3>
@@ -362,7 +359,7 @@
                     <div class="col-lg-6 col-sm-6">
                       <article class="card mb-4">
                         <div class="post-slider slider-sm">
-                          <img src="images/archivio/La_citta_incantata_p.jpg" class="card-img-top" alt="Città Incantata Poster">
+                          <img src="images/archivio/La_citta_incantata_p.jpg" class="card-img-top" alt="Città Incantata Poster" title="frame La città incantata">
                         </div>
                         <div class="card-body">
                           <h3 class="h4 mb-3">La Città Incantata</h3>
@@ -385,7 +382,7 @@
                     <div class="col-lg-6 col-sm-6">
                       <article class="card mb-4">
                         <div class="post-slider slider-sm">
-                          <img src="images/archivio/Laputa_p.jpg" class="card-img-top" alt="Laputa Poster">
+                          <img src="images/archivio/Laputa_p.jpg" class="card-img-top" alt="Laputa Poster" title="frame Castello nel cielo">
                         </div>
                         <div class="card-body">
                           <h3 class="h4 mb-3">Laputa - Castello nel Cielo</h3>
@@ -408,7 +405,7 @@
                      <div class="col-lg-6 col-sm-6">
                         <article class="card mb-4">
                           <div class="post-slider slider-sm">
-                            <img src="images/archivio/ragazzo_airone_p.png" class="card-img-top" alt="Il ragazzo e l'airone poster">
+                            <img src="images/archivio/ragazzo_airone_p.png" class="card-img-top" alt="Il ragazzo e l'airone poster" title="frame Il ragazzo e l'airone">
                           </div>
                           <div class="card-body">
                             <h3 class="h4 mb-3">Il Ragazzo e l'Airone</h3>
@@ -431,7 +428,7 @@
                       <div class="col-lg-6 col-sm-6">
                         <article class="card mb-4">
                           <div class="post-slider slider-sm">
-                            <img src="images/archivio/vicino_totoro_p.png" alt="Totoro Poster" class="card-img-top">
+                            <img src="images/archivio/vicino_totoro_p.png" alt="Totoro Poster" class="card-img-top" title="frame Il mio vicino Totoro">
                           </div>
                           <div class="card-body">
                             <h3 class="h4 mb-3">Il mio vicino Totoro</h3>
@@ -497,7 +494,7 @@
             </ul>
         </div>
         <div class="col-md-2 text-center mb-4">
-            <a href="index.html" target="_blank"><img class="img-fluid" width="100px" src="images/logo.png" alt="Logo Kantoku Nation"></a>
+            <a href="index.html"><img class="img-fluid" width="100px" src="images/logo.png" alt="Logo Kantoku Nation"></a>
         </div>
         <div class="col-md-5 text-md-right text-center mb-4">
             <ul class="list-inline footer-list mb-0">
@@ -510,7 +507,7 @@
             <div class="border-bottom border-default"></div>
         </div>
         </div>
-        <div class="p-4 text-center footer-list"><strong><a href="https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/392953" target="_blank">© Corso di Informatica Umanistica, 2023-2024</a></strong></div>
+        <div class="p-4 text-center footer-list"><strong><a href="https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/392953" target="_blank">© Corso di Informatica Umanistica, 2025</a></strong></div>
     </div>
   </footer>
 
